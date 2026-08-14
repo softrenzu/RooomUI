@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rooom-ui"
+version = "0.1.0"
+description = "Agent-to-application interaction protocol core with shared state, generative UI events, tool requests, and human approval checkpoints."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "ROOOMTECH"}]
+dependencies = []
+
+[tool.setuptools]
+packages = ["rooom_ui"]
